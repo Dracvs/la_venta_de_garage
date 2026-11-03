@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Garage Sale</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Garage Sale</h1>
+    <p class="subtitle">Everything must go. Prices and details coming soon.</p>
+  </header>
+
+  <main>
+    <p class="item-count" id="item-count"></p>
+    <ul class="item-grid" id="item-grid"></ul>
+  </main>
+
+  <dialog class="viewer" id="viewer" aria-label="Photo viewer">
+    <button type="button" class="viewer-close" id="viewer-close" aria-label="Close">&times;</button>
+    <figure>
+      <img id="viewer-image" alt="">
+      <figcaption id="viewer-caption"></figcaption>
+    </figure>
+    <button type="button" class="viewer-nav viewer-prev" id="viewer-prev" aria-label="Previous photo">&#8249;</button>
+    <button type="button" class="viewer-nav viewer-next" id="viewer-next" aria-label="Next photo">&#8250;</button>
+  </dialog>
+
+  <footer class="site-footer">
+    <p>Contact details coming soon.</p>
+  </footer>
+
+  <script src="items.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
