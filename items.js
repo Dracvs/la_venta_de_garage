@@ -1,22 +1,22 @@
 /*
- * Garage sale inventory.
- * Edit this file to change names, prices, descriptions, or mark items as sold.
- *   price:       number in dollars (0 shows as "$0.00")
- *   sold:        true shows a "Sold" badge
- *   photos:      file names inside the img/ folder, first one is the cover
+ * Inventario de la venta de garaje.
+ * Edita este archivo para cambiar nombres, precios, descripciones o marcar artículos como vendidos.
+ *   price:       número en dólares (0 se muestra como "$0.00")
+ *   sold:        true muestra la etiqueta "Vendido"
+ *   photos:      nombres de archivo dentro de la carpeta img/, la primera es la portada
  */
 const SALE_ITEMS = Object.freeze([
   {
     id: "metal-fan",
-    name: "Metal Fan",
-    description: "30 cubic feet of air.",
+    name: "Abanico de Metal",
+    description: "30 pies cúbicos de aire.",
     price: 0,
     sold: false,
     photos: ["abanico_metal_30_pies_cubicos.jpeg"],
   },
   {
     id: "queen-bed-full-base",
-    name: "Queen Bed - Full Bed Base",
+    name: "Cama Queen - Base Cama Completa",
     description: "",
     price: 0,
     sold: false,
@@ -24,7 +24,7 @@ const SALE_ITEMS = Object.freeze([
   },
   {
     id: "queen-bed-split-base",
-    name: "Queen Bed - Split Bed Base",
+    name: "Cama Queen - Base Cama Dividida",
     description: "",
     price: 0,
     sold: false,
@@ -32,7 +32,7 @@ const SALE_ITEMS = Object.freeze([
   },
   {
     id: "queen-mattress",
-    name: "Queen Mattress (no base)",
+    name: "Colchón Queen (sin la base)",
     description: "",
     price: 0,
     sold: false,
@@ -40,7 +40,7 @@ const SALE_ITEMS = Object.freeze([
   },
   {
     id: "kids-desk",
-    name: "Kids' Desk",
+    name: "Escritorio Infantil",
     description: "",
     price: 0,
     sold: false,
@@ -48,7 +48,7 @@ const SALE_ITEMS = Object.freeze([
   },
   {
     id: "washing-machine",
-    name: "Washing Machine",
+    name: "Lavadora",
     description: "",
     price: 0,
     sold: false,
@@ -61,7 +61,7 @@ const SALE_ITEMS = Object.freeze([
   },
   {
     id: "tall-corner-table",
-    name: "Tall Corner Accent Table",
+    name: "Mesa Alta de Centro Esquinero",
     description: "",
     price: 0,
     sold: false,
@@ -69,7 +69,7 @@ const SALE_ITEMS = Object.freeze([
   },
   {
     id: "kids-work-table",
-    name: "Kids' Work Table",
+    name: "Mesa de Trabajo Infantil",
     description: "",
     price: 0,
     sold: false,
@@ -77,7 +77,7 @@ const SALE_ITEMS = Object.freeze([
   },
   {
     id: "refrigerator",
-    name: "Refrigerator",
+    name: "Nevera",
     description: "",
     price: 0,
     sold: false,
@@ -85,7 +85,7 @@ const SALE_ITEMS = Object.freeze([
   },
   {
     id: "plastic-chair",
-    name: "Rigid Plastic Chair",
+    name: "Silla de Plástico Rígido",
     description: "",
     price: 0,
     sold: false,
@@ -93,7 +93,7 @@ const SALE_ITEMS = Object.freeze([
   },
   {
     id: "sofa",
-    name: "3-Seat Sofa",
+    name: "Sofá 3 Puestos",
     description: "",
     price: 0,
     sold: false,
@@ -101,7 +101,7 @@ const SALE_ITEMS = Object.freeze([
   },
   {
     id: "caixun-tv",
-    name: "Caixun 32\" TV",
+    name: "Televisor Caixun 32\"",
     description: "",
     price: 0,
     sold: false,

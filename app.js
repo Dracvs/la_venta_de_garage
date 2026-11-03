@@ -64,7 +64,7 @@ class PhotoViewer {
   render() {
     const { name, photos } = this.item;
     this.image.src = photoUrl(photos[this.index]);
-    this.image.alt = `${name}, photo ${this.index + 1} of ${photos.length}`;
+    this.image.alt = `${name}, foto ${this.index + 1} de ${photos.length}`;
     this.caption.textContent = photos.length > 1
       ? `${name} (${this.index + 1} / ${photos.length})`
       : name;
@@ -76,17 +76,17 @@ const buildItemCard = (item, viewer) => {
 
   const coverButton = createElement("button", {
     className: "item-cover",
-    attrs: { type: "button", "aria-label": `View photos of ${item.name}` },
+    attrs: { type: "button", "aria-label": `Ver fotos de ${item.name}` },
   });
   const cover = createElement("img", {
     attrs: { src: photoUrl(item.photos[0]), alt: item.name, loading: "lazy" },
   });
   coverButton.append(cover);
   if (item.photos.length > 1) {
-    coverButton.append(createElement("span", { className: "photo-count", text: `${item.photos.length} photos` }));
+    coverButton.append(createElement("span", { className: "photo-count", text: `${item.photos.length} fotos` }));
   }
   if (item.sold) {
-    coverButton.append(createElement("span", { className: "sold-badge", text: "Sold" }));
+    coverButton.append(createElement("span", { className: "sold-badge", text: "Vendido" }));
   }
   coverButton.addEventListener("click", () => viewer.open(item));
 
@@ -109,7 +109,7 @@ const renderCatalog = (items) => {
   grid.replaceChildren(...items.map((item) => buildItemCard(item, viewer)));
 
   const available = items.filter((item) => !item.sold).length;
-  document.getElementById("item-count").textContent = `${available} of ${items.length} items available`;
+  document.getElementById("item-count").textContent = `${available} de ${items.length} artículos disponibles`;
 };
 
 renderCatalog(SALE_ITEMS);
