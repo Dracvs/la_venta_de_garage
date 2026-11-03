@@ -2,7 +2,11 @@
 
 const IMAGE_DIR = "img/";
 
-const priceFormatter = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
+const priceFormatter = new Intl.NumberFormat("es-CO", {
+  style: "currency",
+  currency: "COP",
+  maximumFractionDigits: 0,
+});
 
 const formatPrice = (price) => priceFormatter.format(Number(price) || 0);
 

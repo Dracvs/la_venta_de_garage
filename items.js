@@ -1,7 +1,7 @@
 /*
  * Inventario de la venta de garaje.
  * Edita este archivo para cambiar nombres, precios, descripciones o marcar artículos como vendidos.
- *   price:       número en dólares (0 se muestra como "$0.00")
+ *   price:       número en pesos colombianos, sin puntos ni comas (ej. 150000 se muestra como "$ 150.000")
  *   sold:        true muestra la etiqueta "Vendido"
  *   photos:      nombres de archivo dentro de la carpeta img/, la primera es la portada
  */
