@@ -49,7 +49,7 @@ const SALE_ITEMS = Object.freeze([
   {
     id: "washing-machine",
     name: "Lavadora",
-    description: "",
+    description: "Electrolux de 22 Kgs. Menos de 3 meses de uso.",
     price: 800000,
     sold: false,
     photos: [
@@ -78,7 +78,7 @@ const SALE_ITEMS = Object.freeze([
   {
     id: "refrigerator",
     name: "Nevera",
-    description: "",
+    description: "Haceb de 320 Litros. 175 cms de alto.",
     price: 750000,
     sold: false,
     photos: ["nevera.jpeg", "nevera_puerta.jpeg", "nevera_interior.jpeg"],
