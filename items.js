@@ -80,7 +80,7 @@ const SALE_ITEMS = Object.freeze([
     name: "Nevera",
     description: "Haceb de 320 Litros. Alto: 1.78 m x Ancho: 62 cm x Profundidad: 61 cm.",
     price: 750000,
-    sold: false,
+    sold: true,
     photos: ["nevera.jpeg", "nevera_puerta.jpeg", "nevera_interior.jpeg"],
   },
   {
