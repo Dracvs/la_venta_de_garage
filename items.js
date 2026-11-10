@@ -88,7 +88,7 @@ const SALE_ITEMS = Object.freeze([
     name: "Silla de Plástico Rígido",
     description: "",
     price: 25000,
-    sold: false,
+    sold: true,
     photos: ["Silla_plástico_rigido.jpeg"],
   },
   {
