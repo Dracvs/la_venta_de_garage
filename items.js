@@ -43,7 +43,7 @@ const SALE_ITEMS = Object.freeze([
     name: "Escritorio de Madera Estudiantil",
     description: "Ancho: 100 cm x Alto: 77 cm.",
     price: 200000,
-    sold: false,
+    sold: true,
     photos: ["escritorio_infantil.jpeg", "escritorio_infantil_superior.jpeg"],
   },
   {
@@ -104,7 +104,7 @@ const SALE_ITEMS = Object.freeze([
     name: "Televisor Caixun 32\"",
     description: "",
     price: 250000,
-    sold: false,
+    sold: true,
     photos: ["televisor_caixun_32\".jpeg"],
   },
 ]);
