@@ -97,7 +97,7 @@ const SALE_ITEMS = Object.freeze([
     description: "",
     price: 400000,
     sold: false,
-    photos: ["Sofa_3_puestos_blanco.jpeg"],
+    photos: ["Sofa_3_puestos_blanco.jpeg", "sofa_3_puestos_sin_forro.webp", "sofa_3_puestos_respaldo.webp"],
   },
   {
     id: "caixun-tv",
@@ -106,5 +106,13 @@ const SALE_ITEMS = Object.freeze([
     price: 250000,
     sold: true,
     photos: ["televisor_caixun_32\".jpeg"],
+  },
+  {
+    id: "desk-chair",
+    name: "Silla de Escritorio",
+    description: "",
+    price: 100000,
+    sold: false,
+    photos: ["silla_escritorio.webp", "silla_escritorio_respaldo.webp"],
   },
 ]);
