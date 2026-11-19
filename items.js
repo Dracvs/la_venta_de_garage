@@ -20,7 +20,7 @@ const SALE_ITEMS = Object.freeze([
     description: "",
     price: 600000,
     sold: false,
-    photos: ["cama_queen_base_Cama_completa.jpeg"],
+    photos: ["cama_queen_base_Cama_completa.jpeg", "cama_queen_base_completa_colchon.webp"],
   },
   {
     id: "queen-bed-split-base",
@@ -28,7 +28,7 @@ const SALE_ITEMS = Object.freeze([
     description: "",
     price: 600000,
     sold: false,
-    photos: ["Cama_queen_con_base_Cama.jpeg"],
+    photos: ["Cama_queen_con_base_Cama.jpeg", "cama_queen_base_dividida_colchon.webp"],
   },
   {
     id: "queen-mattress",
@@ -36,7 +36,7 @@ const SALE_ITEMS = Object.freeze([
     description: "",
     price: 400000,
     sold: false,
-    photos: ["colchon_queen_sin_base_cama.jpeg"],
+    photos: ["colchon_queen_sin_base_cama.jpeg", "colchon_queen_sin_base_detalle.webp"],
   },
   {
     id: "kids-desk",
